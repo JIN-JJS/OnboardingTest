@@ -1,16 +1,18 @@
 //
-//  SlideView3.swift
+//  SlideView4.swift
 //  OnboardingTest
 //
-//  Created by 전준수 on 3/11/24.
+//  Created by 전준수 on 3/18/24.
 //
 
 import SwiftUI
 
-struct SlideView3: View {
+struct SlideView4: View {
     @StateObject var slideViewModel: SlideViewModel = .init()
+    @Binding var isFirstLaunch: Bool
     
     var body: some View {
+        
         VStack{
             VStack{
                 Text("손쉽게 시작해보아요")
@@ -22,7 +24,7 @@ struct SlideView3: View {
             
             VStack(spacing:24){
                 ForEach(slideViewModel.slideModelList){ index in
-                    if index.id == 3 {
+                    if index.id == 4 {
                         HStack{
                             Image(systemName: "\(index.systemName)")
                                 .resizable()
@@ -45,11 +47,22 @@ struct SlideView3: View {
                     }
                 }
                 Spacer()
+                
+                Button{
+                    isFirstLaunch = false
+                } label: {
+                    Text("다음")
+                        .padding(.horizontal)
+                        .padding(.vertical, 6)
+                        .frame(maxWidth: .infinity)
+                }
+                .buttonStyle(.borderedProminent)
+                .padding(.bottom,24)
             }
         }.padding()
     }
 }
 
 #Preview {
-    SlideView3()
+    SlideView4(isFirstLaunch: .constant(false))
 }

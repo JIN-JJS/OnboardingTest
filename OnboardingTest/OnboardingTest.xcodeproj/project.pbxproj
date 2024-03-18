@@ -28,6 +28,7 @@
 		C02744CC2B9F00C6000CF7C8 /* SlideView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02744CB2B9F00C6000CF7C8 /* SlideView1.swift */; };
 		C02744CE2B9F00CD000CF7C8 /* SlideView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02744CD2B9F00CD000CF7C8 /* SlideView2.swift */; };
 		C02744D02B9F00D3000CF7C8 /* SlideView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02744CF2B9F00D3000CF7C8 /* SlideView3.swift */; };
+		C02744D22BA7FFCF000CF7C8 /* SlideView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02744D12BA7FFCF000CF7C8 /* SlideView4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		C02744CB2B9F00C6000CF7C8 /* SlideView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView1.swift; sourceTree = "<group>"; };
 		C02744CD2B9F00CD000CF7C8 /* SlideView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView2.swift; sourceTree = "<group>"; };
 		C02744CF2B9F00D3000CF7C8 /* SlideView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView3.swift; sourceTree = "<group>"; };
+		C02744D12BA7FFCF000CF7C8 /* SlideView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 				C02744CB2B9F00C6000CF7C8 /* SlideView1.swift */,
 				C02744CD2B9F00CD000CF7C8 /* SlideView2.swift */,
 				C02744CF2B9F00D3000CF7C8 /* SlideView3.swift */,
+				C02744D12BA7FFCF000CF7C8 /* SlideView4.swift */,
 			);
 			path = SlideView;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				C02744BE2B9F0017000CF7C8 /* ProgressTapView.swift in Sources */,
 				C02744B72B9EFF50000CF7C8 /* ProgressViewModel.swift in Sources */,
 				C02744BC2B9EFF6F000CF7C8 /* ProgressModel.swift in Sources */,
+				C02744D22BA7FFCF000CF7C8 /* SlideView4.swift in Sources */,
 				C02744C82B9F0045000CF7C8 /* ProgressView5.swift in Sources */,
 				C02744B32B9EFF3F000CF7C8 /* BasicView.swift in Sources */,
 				C02744C62B9F003F000CF7C8 /* ProgressView4.swift in Sources */,

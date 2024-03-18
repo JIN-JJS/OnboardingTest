@@ -18,8 +18,11 @@ struct ContentView: View {
         VStack {
             Text("Main View")
         }
-        .popover(isPresented: $isFirstLaunch) {
-            BasicView(isFirstLaunch: $isFirstLaunch)
+//        .popover(isPresented: $isFirstLaunch) {
+//            BasicView(isFirstLaunch: $isFirstLaunch)
+//        }
+        .fullScreenCover(isPresented: $isFirstLaunch) {
+            SlideTapView(isFirstLaunch: $isFirstLaunch)
         }
     }
 }
