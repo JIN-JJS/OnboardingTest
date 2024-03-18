@@ -51,10 +51,10 @@ struct SlideView4: View {
                 Button{
                     isFirstLaunch = false
                 } label: {
-                    Text("다음")
+                    Text("시작하기")
                         .padding(.horizontal)
                         .padding(.vertical, 6)
-                        .frame(maxWidth: .infinity)
+                        .frame(maxWidth: 330)
                 }
                 .buttonStyle(.borderedProminent)
                 .padding(.bottom,24)

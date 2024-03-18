@@ -21,8 +21,11 @@ struct ContentView: View {
 //        .popover(isPresented: $isFirstLaunch) {
 //            BasicView(isFirstLaunch: $isFirstLaunch)
 //        }
+//        .fullScreenCover(isPresented: $isFirstLaunch) {
+//            SlideTapView(isFirstLaunch: $isFirstLaunch)
+//        }
         .fullScreenCover(isPresented: $isFirstLaunch) {
-            SlideTapView(isFirstLaunch: $isFirstLaunch)
+            ProgressTapView(isFirstLaunch: $isFirstLaunch)
         }
     }
 }
