@@ -61,15 +61,8 @@ struct ProgressTapView: View {
                         .buttonStyle(.borderedProminent)
                         .padding(.bottom,24)
         
-                
-                    
                 }
             }
-        
-        
-        
-        
-        
     }
 }
 

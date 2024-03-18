@@ -10,9 +10,7 @@ import SwiftUI
 struct SlideTapView: View {
     @Binding var isFirstLaunch: Bool
     
-    
     var body: some View {
-        
         
         TabView {
             SlideView1()
@@ -24,9 +22,7 @@ struct SlideTapView: View {
             SlideView4(isFirstLaunch: $isFirstLaunch)
         }
         .tabViewStyle(PageTabViewStyle())
-        
-        
-        
+
     }
 }
 

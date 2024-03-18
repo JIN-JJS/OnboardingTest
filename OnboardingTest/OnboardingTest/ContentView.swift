@@ -18,12 +18,17 @@ struct ContentView: View {
         VStack {
             Text("Main View")
         }
-//        .popover(isPresented: $isFirstLaunch) {
-//            BasicView(isFirstLaunch: $isFirstLaunch)
-//        }
-//        .fullScreenCover(isPresented: $isFirstLaunch) {
-//            SlideTapView(isFirstLaunch: $isFirstLaunch)
-//        }
+        // MARK: BasicOnboarding
+        //        .popover(isPresented: $isFirstLaunch) {
+        //            BasicView(isFirstLaunch: $isFirstLaunch)
+        //        }
+        
+        // MARK: SlideOnboarding
+        //        .fullScreenCover(isPresented: $isFirstLaunch) {
+        //            SlideTapView(isFirstLaunch: $isFirstLaunch)
+        //        }
+        
+        // MARK: ProgressOnboarding
         .fullScreenCover(isPresented: $isFirstLaunch) {
             ProgressTapView(isFirstLaunch: $isFirstLaunch)
         }
