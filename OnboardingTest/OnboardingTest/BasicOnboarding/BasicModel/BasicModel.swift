@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct BasicModel: Identifiable, Hashable {
+    var id: Int
+    var systemName: String = ""
+    var title: String = ""
+    var content: String = ""
+}
