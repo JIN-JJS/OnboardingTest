@@ -6,7 +6,8 @@
 
 \- [Apple Developer HIG](https://developer.apple.com/design/human-interface-guidelines/onboarding)
 
-[##_Image|kage@bE1MX8/btsFEZgWrYk/cBGcpKswmuXmrf28cxi8e0/img.png|CDM|1.3|{"originWidth":1532,"originHeight":1178,"style":"widthContent","caption":"Apple의 HIG Onboarding 소개글","filename":"스크린샷 2024-03-11 오후 5.32.38.png"}_##]
+<img width="770" alt="스크린샷 2024-03-25 오후 4 01 48" src="https://github.com/JIN-JJS/OnboardingTest/assets/114235515/cfb46766-9b07-43a9-8b10-70579d39aa2a">
+
 
 ### **(1) HIG 모범 사례 고려사항**
 
@@ -24,13 +25,15 @@
 
 ## **2\. 기본 스타일**
 
-[##_Image|kage@bjZ9tp/btsFRbU8hzL/wub94d02q07x9ZcfBL3by0/img.gif|CDM|1.3|{"originWidth":295,"originHeight":640,"style":"alignLeft","width":400,"height":868,"caption":"기본 스타일 완성 화면","filename":"Simulator Screen Recording - iPhone 15 Pro - 2024-03-18 at 16.34.09.gif"}_##]
+![Simulator Screen Recording - iPhone 15 Pro - 2024-03-18 at 16 34 09](https://github.com/JIN-JJS/OnboardingTest/assets/114235515/229850fe-2def-4eed-9e36-d98b10251869)
+
 
 ### **(1) 프로젝트 구성**
 
 \- MVVM패턴의 프로젝트 구성
 
-[##_Image|kage@bj1UNr/btsFRdeiXrn/0hROzakUcbBHVlaRuRxrXK/img.png|CDM|1.3|{"originWidth":500,"originHeight":494,"style":"alignLeft","filename":"스크린샷 2024-03-18 오후 12.25.36.png"}_##]
+<img width="250" alt="스크린샷 2024-03-18 오후 12 25 36" src="https://github.com/JIN-JJS/OnboardingTest/assets/114235515/ad4146a4-2d21-48f3-8299-1a701cdd4925">
+
 
 ### **(2) ContentView**
 
@@ -165,13 +168,13 @@ final class BasicViewModel: ObservableObject {
 
 ## **3\. 슬라이드 스타일**
 
-[##_Image|kage@bqBpEg/btsFRsWDykc/KWtUNTVAQqhLSj1Oi094h1/img.gif|CDM|1.3|{"originWidth":295,"originHeight":640,"style":"alignLeft","width":400,"height":868,"caption":"슬라이드 스타일 완성 화면","filename":"Simulator Screen Recording - iPhone 15 Pro - 2024-03-18 at 16.43.06.gif"}_##]
+![Simulator Screen Recording - iPhone 15 Pro - 2024-03-18 at 16 43 06](https://github.com/JIN-JJS/OnboardingTest/assets/114235515/01d53c43-bc8a-4197-b382-754c8fff0c9a)
 
 ### **(1) 프로젝트 구성**
 
 \- MVVM패턴의 프로젝트 구성
 
-[##_Image|kage@QiQUo/btsFUlh6AWI/HtAoTWPgkbRjTpRF9BR8i1/img.png|CDM|1.3|{"originWidth":500,"originHeight":450,"style":"alignLeft","filename":"스크린샷 2024-03-18 오후 12.26.18.png"}_##]
+<img width="250" alt="스크린샷 2024-03-18 오후 12 26 08" src="https://github.com/JIN-JJS/OnboardingTest/assets/114235515/3e2119e9-6759-4b00-8a98-8378a037de2b">
 
 ### **(2) ContentView**
 
@@ -463,13 +466,13 @@ final class SlideViewModel: ObservableObject {
 
 ## **4\. 프로그레스 스타일**
 
-[##_Image|kage@d3fTkz/btsFRmiiUqo/X6xacwAMi5py8ljXdgphWk/img.gif|CDM|1.3|{"originWidth":295,"originHeight":640,"style":"alignLeft","width":400,"height":868,"caption":"프로그레스 스타일 완성 화면","filename":"Simulator Screen Recording - iPhone 15 Pro - 2024-03-18 at 17.01.44.gif"}_##]
+![Simulator Screen Recording - iPhone 15 Pro - 2024-03-18 at 16 56 00](https://github.com/JIN-JJS/OnboardingTest/assets/114235515/9e437150-5ac8-4bff-84bd-ec6468b32b64)
 
 ### **(1) 프로젝트 구성**
 
 \- MVVM패턴의 프로젝트 구성
 
-[##_Image|kage@xuagk/btsFRCkRcWP/nMWzfBeyHO8F5YDTAFy8g1/img.png|CDM|1.3|{"originWidth":500,"originHeight":536,"style":"alignLeft","filename":"스크린샷 2024-03-18 오후 12.26.31.png"}_##]
+<img width="250" alt="스크린샷 2024-03-18 오후 12 26 31" src="https://github.com/JIN-JJS/OnboardingTest/assets/114235515/86d3bbc2-a66d-4587-afbf-4ef857e49283">
 
 ### **(2) ContentView**
 
